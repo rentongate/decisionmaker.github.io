@@ -2,7 +2,7 @@
     <div id="app" @click="click">
         <div id="desc" v-if="!bStarted">
             <div class="pp title">The Shy</div>
-            <div class="pp">😄大家将一个手指按到屏幕上任何位置, 系统随机挑选一个shy shy的Ta, 随机决定是谁喝酒、取外卖、洗碗等等</div>
+            <div class="pp">Click the Screen</div>
 
             <div class="nigeerhuo tab-icon">&#xe6f7;</div>
         </div>
@@ -37,7 +37,7 @@
                    :ball="ball"></Ball2>
         </template>
 
-        <button v-if="bEnd" id="reload" @click.stop="reload()">再来一次</button>
+        <button v-if="bEnd" id="reload" @click.stop="reload()">Try Again</button>
     </div>
 </template>
 
@@ -56,7 +56,7 @@
             return {
                 balls: [],
                 ballsV2: [],
-                ziList: ['龍', '钱', '帅', '鼎', '雷', '火', '风', '雨', '侠', '虎', '羊', '狗', '猪'],
+                ziList: ['Renton', 'Jason', 'Yiyang', 'Zoe', 'zaida', 'Lane', 'Ai', 'Daisy', 'Sarah', 'Ruta', 'Jaye', 'Noah', 'Siri'],
                 usedZiList: [],
                 colors: ['#4285f4', '#A7A7A7', '#fbbc05', '#769cdb', '#45ad61'],
                 usedColors: [],
