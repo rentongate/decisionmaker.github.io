@@ -4,8 +4,6 @@
 
 [Demo Here](https://ajlovechina.github.io/theshy/)
 
-<img src='the-shy.gif' />
-
 ## Project setup
 ```
 yarn install
